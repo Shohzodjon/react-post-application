@@ -1,0 +1,17 @@
+.bottom-post{
+    background: #fff;
+    border-radius: .3rem;
+   
+}
+.bottom-post h3{
+    font-size: 1rem;
+    margin:.3rem .6rem;
+}
+
+.bottom_post-img{
+    width: 100%;
+}
+.bottom_post-img img{
+    width: 100%;
+    border-radius: 0 0 0.4rem 0.4rem;
+}

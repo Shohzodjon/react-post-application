@@ -1,0 +1,134 @@
+.course-box{
+    width:100%;
+    margin-top: 1rem;
+
+}
+.course-box ul{
+    list-style: none;
+    margin-left: -17px;
+}
+.course-box li{
+    font-size: 1.2rem;
+    margin:.7rem 0;
+    font-weight: 600;
+}
+.course-box .button{
+    width:240px;
+    padding:.6rem;
+    border:none;
+    border-radius: 1rem;
+    background: rgb(231 227 227);
+    margin-right: .2rem;
+}
+.course-box .bi-plus-circle-fill{
+    margin-right: .5rem;
+}
+
+/*  Modal style */
+
+.overlay{
+    width: 100vw;
+    height: 115%;
+    background-color: rgba(0, 0, 0, 0.884);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 222;
+}
+
+.modal-box{
+    display: none;
+    position: absolute;
+    top: 15%;
+    left: 32.5%;
+    right: 0;
+    background: #fff;
+    color:#000;
+    width: 35%;
+    padding: 1rem;
+    z-index: 9999;
+    border-radius: 1rem;
+}
+
+.modal-wrapp{
+    position: relative;
+
+}
+.modal-box h3{
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 0.2rem 0;
+    text-align: center;
+
+}
+.close_modal_btn{
+    border: none;
+    background:none;
+    width: 20px;
+    height: 20px;
+    font-weight: 700;
+    color: #000;
+    font-size: 1.6rem;
+    position: absolute;
+    top: -10px;
+    right: 10px;
+    cursor: pointer;
+}
+.box_one{
+    margin: .4rem 0;
+}
+.modal_channel-name{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: .3rem .8rem;
+    font-size: 1rem;
+    border-radius: .4rem;
+    border: 1px solid rgb(231 227 227);
+}
+
+.modal_channel-description{
+    border: none;
+    outline: none;
+    width: 100%;
+    border-radius: .6rem;
+    padding: .3rem .8rem;
+    border: 1px solid rgb(231 227 227);
+}
+
+.modal_privacy-box{
+    margin: .5rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.privacy-left p{
+    font-size: .9rem;
+}
+.modal_button-group{
+    width: 100%;
+    text-align: right;
+}
+
+.modal_btn{
+    border: none;
+    width: 100px;
+    height: 30px;
+    font-size: .9rem;
+    border-radius: .3rem;
+    background: none;
+}
+.modal_btn:hover{
+    background: rgb(209, 204, 204); 
+}
+.modal_btn:focus{
+    background: rgb(209, 204, 204);
+}
+.modal_cancel{
+    margin: 0 .5rem;
+}
+
+
+
+/*   Toggle button  */

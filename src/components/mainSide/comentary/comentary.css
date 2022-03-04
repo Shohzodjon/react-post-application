@@ -1,0 +1,26 @@
+.comentary-box{
+    width: 100%;
+    padding: .3rem 0;
+}
+.comentary-box button{
+    border: none;
+    outline: none;
+    padding: .2rem;
+    background: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.comentary-box .bi-hand-thumbs-up-fill{
+    font-size: 1.1rem;
+    margin-right: .4rem;
+}
+.comentary-box .bi-chat-fill{
+    font-size: 1.1rem;
+    margin-right: .4rem;
+}
+.comentary-box .bi-reply-fill{
+    font-size: 1.4rem;
+    margin-right: .4rem;
+    transform: rotateX(180deg);
+  
+}

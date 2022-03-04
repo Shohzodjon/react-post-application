@@ -1,0 +1,25 @@
+.notification-section{
+   width:850px;
+    /* background: rgba(219, 214, 214, 0.226); */
+    /* padding: 1rem 0; */
+}
+
+.notification-section .left__side{
+   background: #fff;
+    width: 99.1%;
+    border-radius: .3rem;
+    padding:0.1rem 1rem .6rem;
+}
+.notife-flex{
+    display: flex;
+    align-items: center;
+
+}
+.user-name1{
+    margin:0;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.user-condition{
+    margin: 0 1rem;
+}

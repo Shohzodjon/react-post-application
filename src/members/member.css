@@ -1,0 +1,46 @@
+.member-section{
+   width: 100%;
+    /* background: rgba(240, 236, 236, 0.185); */
+    border-radius: .3rem;
+}
+
+.member-section_leftSide{
+  width:85%;
+padding: 1rem; 
+margin-left: 2rem;
+display: flex;
+flex-wrap: wrap;
+align-items: flex-start;
+border-radius: .3rem;
+}
+.member-card{
+    width:20%;
+    padding: .5rem;
+    margin-right: 1rem;
+    text-align: center;
+    border-radius: .8rem;
+}
+.card-circle{
+    width:80px;
+    height: 80px;
+    background: crimson;
+    margin: 0 auto .4rem;
+    border-radius: 50%;
+}
+.card-circle p{
+    line-height: 80px;
+    font-weight: 600;
+    color:#fff;
+}
+.member-name{
+    font-size: .9rem;
+    margin: .3rem 0;
+}
+.card-btn{
+    width:50%;
+    margin: 2rem auto .7rem;
+    padding: .2rem;
+    font-size: .8rem;
+    text-align: center;
+    
+}

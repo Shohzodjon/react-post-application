@@ -1,0 +1,22 @@
+.newmemeber-section h2{
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin: 0 .2rem;
+}
+.newmemeber-section ul{
+    list-style: none;
+   margin-left: -38px;
+}
+.newmemeber-section li{
+    display: flex;
+    align-items: center;
+    margin: .4rem 0;
+}
+.user_name2{
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.newmemeber-section .bi-person-circle{
+    font-size: 1.4rem;
+    margin-right: .7rem;
+}
