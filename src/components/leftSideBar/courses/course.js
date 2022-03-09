@@ -9,24 +9,29 @@ const Courses = () => {
         setTrue(true)
     }
 
-    const closeModal =(e)=>{
+    const closeModal = (e) => {
         e.preventDefault();
-         setTrue(false);
+        setTrue(false);
     }
-    
+
     return (
         <div className="course-box">
             <ul>
                 <li>JavaScript</li>
                 <li>CSS</li>
                 <li>HTML</li>
-                <li><button onClick={showModal} className="button"><i className="bi bi-plus-circle-fill"></i> Create Channel </button></li>
+                <li>
+                    <button
+                        onClick={showModal}
+                        className="button">
+                        <i className="bi bi-plus-circle-fill"></i> Create Channel </button>
+                </li>
             </ul>
 
-       { isTrue?<div className="modal-box" style={{display:"block"}}>
+            {isTrue ? <div className="modal-box" style={{ display: "block" }}>
                 <form className="modal-wrapp">
                     <h3>Create channel </h3>
-                        <i className="bi bi-x close_modal_btn" onClick={closeModal}></i>
+                    <i className="bi bi-x close_modal_btn" onClick={closeModal}></i>
                     <hr />
                     <div className="box_one">
                         <h3>Name</h3>
@@ -52,8 +57,8 @@ const Courses = () => {
                     </div>
 
                 </form>
-            </div>:null
-       }
+            </div> : null
+            }
 
 
 

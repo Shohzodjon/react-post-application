@@ -10,7 +10,6 @@ const RightSide =()=>{
         <section className="main-rigthSide">
             <NewMember/>
             <OnlineMember/>
-
         </section>
     )
 }

@@ -14,14 +14,17 @@ const Navbar = () => {
                     <input type="text" id="search" placeholder="Search for posts and memebers" name="none" />
                 </label>
             </div>
-            <div className="d-flex align-items-center">
+
+         <div className="d-flex align-items-center"> 
                 <div className="notice">
                 <i className="bi bi-bell"></i>
                 </div>
                 <div className="person-icon">
                 <i className="bi bi-person-circle"></i>
                 </div>
+             
             </div>
+        
         </nav>
     )
 }

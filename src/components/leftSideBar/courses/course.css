@@ -55,7 +55,7 @@
     position: relative;
 
 }
-.modal-box h3{
+.modal-wrapp>h3{
     font-size: 1.2rem;
     font-weight: 500;
     margin: 0.2rem 0;
@@ -77,6 +77,11 @@
 }
 .box_one{
     margin: .4rem 0;
+}
+.box_one h3{
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 0.2rem 0; 
 }
 .modal_channel-name{
     width: 100%;
@@ -105,6 +110,11 @@
 }
 .privacy-left p{
     font-size: .9rem;
+}
+.privacy-left h3{
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 0.2rem 0; 
 }
 .modal_button-group{
     width: 100%;

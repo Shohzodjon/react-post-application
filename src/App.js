@@ -17,18 +17,18 @@ function App() {
       <section className='root-section_one'>
         <Navbar />
         <section className='root-section'>
-          <div  className='app_left-section'>
-          <LeftComponent/>
+          <div className='app_left-section'>
+            <LeftComponent />
           </div>
-       
-        <section className='app_right-section'>
-        <Routes>
-            <Route path='/' exact element={<Home />} />
-            <Route path='/notife' element={<Notification />} />
-            <Route path='/members' element={<Members />} />
-            <Route path='/message' element={<Messages />} />
-          </Routes>
-        </section>
+
+          <section className='app_right-section'>
+            <Routes>
+              <Route path='/' exact element={<Home />} />
+              <Route path='/notife' element={<Notification />} />
+              <Route path='/members' element={<Members />} />
+              <Route path='/message' element={<Messages />} />
+            </Routes>
+          </section>
         </section>
       </section>
     </BrowserRouter>

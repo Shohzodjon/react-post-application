@@ -96,3 +96,19 @@ padding:8px 4px;
     background: none;
     font-size: 1.3rem;
 }
+.message-list{
+    height: 64vh;
+    overflow-y: scroll;
+    list-style: none;
+}
+.message-list li{
+    background: linear-gradient(60deg, rgba(0, 0, 255, 0.829),rgba(34, 214, 238, 0.726), rgba(220, 20, 60, 0.692));
+    max-width: 80%;
+    width: auto;
+    padding: .2rem .5rem;
+    margin-top: .5rem;
+    margin-left: -20px;
+    font-size: 1.1rem;
+    border-radius: .4rem;
+    color: rgb(235, 230, 230);
+}
